@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.a14.free.nvg.MainActivity">
+    <include layout="@layout/conten_main" />
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="wrap_content"
+       >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:layout_collapseMode="parallax"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            >
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+            <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager_hot"
+                app:layout_collapseMode="parallax"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+        <ImageView
+            android:id="@+id/image11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:background="#25dc8a"
+           />
+
+        <ImageView
+            android:id="@+id/image12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:background="#ed0662"
+            />
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

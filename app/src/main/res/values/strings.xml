@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NVG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="description">CollapsingToolbarLayout:  Là lớp mở rộng của Toolbar, nó thường chứa ảnh trên header của ứng dụg và khi chúng ta cuộn lên hoặc cuộn xuống thì các ảnh này sẽ bị collapse. Chúng ta sét thuộc tính cờ scrolls cho Toolbar  app:layout_scrollFlags. Ở đây chúng ta có một số cờ cơ bản như sau:  Scroll: cờ này nên được thiết lập cho tất cả các View mà muốn di chuyển ra khỏi màn hình enterAlways: cờ này đảm bảo rằng bất kỳ View khi cuộn xuống sẽ được nhìn thấy. enterAlwaysCollapsed: Khi bạn đã xét minheight và bạn sử dụng lá cờ này, View của bạn sẽ bị Collapse và xuất hiện khi đạt chiều cao tối thiểu của nó.  exitUntilCollapsed: Cờ này sẽ làm cho View bị collapse khi nó đạt đến độ cao tối thiểu của nó. Tiếp theo chúng ta sét ảnh làm ảnh header của ứng dụng như sau:</string>
+    <string name="title">app:layout_scrollFlags. Ở đây chúng ta có một số cờ cơ bản như sau:  Scroll: cờ này nên được thiết lập cho t app:layout_scrollFlags. Ở đây chúng ta có một số cờ cơ bản như sau:  Scroll: cờ này nên được thiết lập cho t app:layout_scrollFlags. Ở đây chúng ta có một số cờ cơ bản như sau:  Scroll: cờ này nên được thiết lập cho t</string>
+    <string name="hot">Hot</string>
+</resources>
