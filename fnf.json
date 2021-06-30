@@ -36,7 +36,7 @@
     "in_app_close": false,
     "bg_inapp": "",
     "price": "After 59USD/week",
-    "isShowAdsAndInApp": true,
+    "isShowAdsAndInApp": false,
     "timeClose": 5000,
     "BASE64_PUBLISH_KEY": "BASE64_PUBLISH_KEY"
   },
