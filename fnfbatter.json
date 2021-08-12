@@ -28,7 +28,7 @@
     "is_exists": true,
     "is_show_more": true,
     "isLoading": false,
-    "isShowAds": true,
+    "isShowAds": false,
     "onlyAdsMe": false,
     "rate": true,
     "bg": "https://play-lh.googleusercontent.com/8gaz8rbPJ7hCtl-kU1mQwm04-awVv5TDSJjEfmEKRDp1hipKn2nlRmLKEmSDib7uqCk=w1440-h620-rw",
@@ -36,7 +36,7 @@
     "in_app_close": false,
     "bg_inapp": "",
     "price": "After 59USD/week",
-    "isShowAdsAndInApp": true,
+    "isShowAdsAndInApp": false,
     "timeClose": 5000,
     "BASE64_PUBLISH_KEY": "BASE64_PUBLISH_KEY"
   },
