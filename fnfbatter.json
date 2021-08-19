@@ -2,10 +2,10 @@
   "ads": {
     "id_app": "id_app",
     "flury_id": "flury_id",
-    "banner_setting": "ca-app-pub-/4584275245",
-    "inter_setting": "ca-app-/3103672614",
-    "banner_main": "ca-apppub-/1958111905",
-    "inter_main": "ca-app-pu/4103809384",
+    "banner_setting": "ca-app-pub-5315325291235997/7449424341",
+    "inter_setting": "ca-app-pub-5315325291235997/1869794607",
+    "banner_main": "ca-app-pub-5315325291235997/2934823630",
+    "inter_main": "ca-app-pub-5315325291235997/9308660298",
     "banner_setting_new": "",
     "inter_setting_new": "",
     "banner_main_new": "",
@@ -24,11 +24,11 @@
     "c_inter_setting": ""
   },
   "app_exists": {
-    "id": "com.FNF.pe.freemods.mcpe.mod.for.addons.stasapp.Minecraft",
+    "id": "",
     "is_exists": true,
     "is_show_more": true,
     "isLoading": false,
-    "isShowAds": false,
+    "isShowAds": true,
     "onlyAdsMe": false,
     "rate": true,
     "bg": "https://play-lh.googleusercontent.com/8gaz8rbPJ7hCtl-kU1mQwm04-awVv5TDSJjEfmEKRDp1hipKn2nlRmLKEmSDib7uqCk=w1440-h620-rw",
@@ -36,7 +36,7 @@
     "in_app_close": false,
     "bg_inapp": "",
     "price": "After 59USD/week",
-    "isShowAdsAndInApp": false,
+    "isShowAdsAndInApp": true,
     "timeClose": 5000,
     "BASE64_PUBLISH_KEY": "BASE64_PUBLISH_KEY"
   },
